@@ -1,0 +1,17 @@
+pkgbase = ros-hydro-genpy
+	pkgdesc = ROS - Python ROS message and service generators.
+	pkgver = 0.4.17
+	pkgrel = 1
+	url = http://www.ros.org/
+	arch = any
+	license = BSD
+	makedepends = cmake
+	makedepends = git
+	makedepends = ros-build-tools
+	makedepends = ros-hydro-genmsg
+	makedepends = ros-hydro-catkin
+	depends = ros-hydro-genmsg
+	source = genpy::git+https://github.com/ros-gbp/genpy-release.git#tag=release/hydro/genpy/0.4.17-0
+
+pkgname = ros-hydro-genpy
+
